@@ -90,6 +90,14 @@ export const AuthAdditionalForm: React.FC<IAuthFormProps> = ({ isSignIn }) => {
         <Button type="submit" className="w-full" loading={isLoading}>
           Submit
         </Button>
+        <Button
+          type="submit"
+          variant={"outline"}
+          className="w-full"
+          loading={isLoading}
+        >
+          Back
+        </Button>
       </form>
     </Form>
   );

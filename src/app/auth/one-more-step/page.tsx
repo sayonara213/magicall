@@ -20,6 +20,8 @@ const AdditionalAuthPage = async () => {
     .eq("id", user?.id!)
     .single();
 
+  console.log(profile);
+
   if (profile) {
     redirect("/");
   }
