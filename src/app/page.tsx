@@ -1,3 +1,4 @@
+import { LogoutButton } from "@/components/global/logout-button";
 import { ThemeSwitch } from "@/components/global/theme-switch";
 import React from "react";
 
@@ -8,6 +9,7 @@ const Home = () => {
         Lol
       </div>
       <ThemeSwitch />
+      <LogoutButton />
     </main>
   );
 };
